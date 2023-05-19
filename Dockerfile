@@ -2,8 +2,8 @@ FROM postgres:15
 
 WORKDIR /src
 
-COPY *.sql .
+COPY *.sql ./
 
-COPY runner.sh .
+COPY runner.sh ./
 
 CMD ["postgres"]
