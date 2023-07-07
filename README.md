@@ -33,11 +33,6 @@ Exec (ssh) into the container:
 docker exec -it <CONTAINER ID> bash
 ```
 
-From within the container, run the setup script that will create and populate the table:
-```bash
-./runner.sh
-```
-
 ### Execute queries
 From within the container, access the postgres repl:
 ```bash
